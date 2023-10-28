@@ -1,1 +1,8 @@
+numpy
 Flask
+gunicorn
+sklearn
+pandas
+-e . #it install all the packgaes created by us for root folder (housing) with __init__ file it
+#check the difference after removing it (a housing_predictor.egg-info) folder will not get created after running pip install -r requirements.txt
+#it is necessary to have setup.py script if we using "-e ." else it will through an error 
